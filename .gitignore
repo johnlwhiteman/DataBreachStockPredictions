@@ -1,0 +1,4 @@
+~.gitignore
+.ipynb_checkpoints/
+*.swp
+__pycache__/

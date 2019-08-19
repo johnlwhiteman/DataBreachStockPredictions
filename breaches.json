@@ -1,0 +1,76 @@
+{
+    "companies": [
+        {
+            "ID": "COF",
+            "name": "Capital One",
+            "symbol": "COF",
+            "date": "2019-07-29",
+            "modelDays": 100,
+            "predictDays": 100,
+            "ignore": false
+        },
+        {
+            "ID": "TGT",
+            "name": "Target",
+            "symbol": "TGT",
+            "date": "2018-12-19",
+            "ignore": false
+        },
+        {
+            "ID": "MAR",
+            "name": "Marriott",
+            "symbol": "MAR",
+            "date": "2018-11-30",
+            "ignore": false
+        },
+        {
+            "ID": "FB-2018",
+            "name": "Facebook",
+            "symbol": "FB",
+            "date": "2018-09-28",
+            "ignore": false
+        },
+        {
+            "ID": "TMUS",
+            "name": "T-Mobile",
+            "symbol": "TMUS",
+            "date": "2018-08-24",
+            "ignore": false
+        },
+        {
+            "ID": "DGX",
+            "name": "Quest Diagnostics",
+            "symbol": "DGX",
+            "date": "2018-05-03",
+            "ignore": false
+        },
+        {
+            "ID": "UAA",
+            "name": "Under Armour",
+            "symbol": "UAA",
+            "date": "2018-03-29",
+            "ignore": false
+        },
+        {
+            "ID": "EFX",
+            "name": "Equifax",
+            "symbol": "EFX",
+            "date": "2017-09-07",
+            "ignore": false
+        },
+        {
+            "ID": "ANTM",
+            "name": "Anthem",
+            "symbol": "ANTM",
+            "date": "2015-02-04",
+            "ignore": false
+        },
+        {
+            "ID": "EBAY",
+            "name": "EBAY",
+            "symbol": "EBAY",
+            "date": "2014-5-21",
+            "ignore": false
+        }
+    ]
+}
