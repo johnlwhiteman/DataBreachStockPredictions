@@ -1,6 +1,6 @@
 # Security Data Breaches
 
-*A simple project to track and predict stock prices after a data breach is publically announced.*
+*A simple project to track and predict stock prices after a data breach is publicly announced.*
 
 | ID | Name | Symbol | Date |
 |----|------|--------|------|
@@ -15,9 +15,34 @@
 | ANTM | Anthem | ANTM | 2015-02-04 |
 | EBAY | Ebay | EBAY | 2014-5-21 |
 
+## Add Alpha Vantage API Key
+* This application uses the Alpha Vantage API to download historical stock prices. You will need to get your own free API key. Go to their [website](https://www.alphavantage.co/documentation/) for instructions.
+* Once you have the key, do the following:
+* Open *setEnv* and add your key ALPHA_VANTAGE_API_KEY='YOUR KEY GOES HERE'
+* Save the file and close ...
+
 ## Execution
+Run in a terminal (Plots won't work here):
 * *$ runClient*
-* *$ runJupyter*
+
+Run in a browser:
+* *$ runJupyter* 
+
+## Add a New Breach
+* Open *breaches.json*
+* Enter new breach information
+        *{
+            "ID": "UNIQUE ID ... LIKE STOCK TICKER",
+            "name": "COMPANY NAME",
+            "symbol": "STOCK TICKER",
+            "date": "DATE OF THE BREACH",
+            "ignore": false
+        },*
+* Save file and close
+* Execute as previously instructed
+
+## Update All CSV Data Files
+* When calling the *b.open(path="breaches.json", forceRemote=False)* function simply override the *forceRemote=False* parameter to *forceRemote=True*. All files will automatically be updated. Sometimes Alpha Vantage will throw an error after doing a handful of downloads. Simple set the restart where the error occurred. The previous breaches can be ignored by setting the *"ignore": false* parameter to *"ignore": true* in the breaches.json file.
 
 ## Installation (Ubuntu)
 * *$ sudo add-apt-repository ppa:jonathonf/python-3.7*

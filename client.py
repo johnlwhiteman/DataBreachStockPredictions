@@ -11,5 +11,6 @@ for i in b.IDs:
 
 b.showMeta()
 
-for i in b.IDs:
-    b.plot(i)
+# Plots probably won't work unless you configure it so
+#for i in b.IDs:
+#    b.plot(i)
