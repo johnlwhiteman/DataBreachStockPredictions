@@ -1,4 +1,3 @@
 #!/usr/bin/env bash
-#export ALPHA_VANTAGE_API_KEY='' 
-#export QUANDL_API_KEY=''
-#export DATA_SOURCE=''
+export ALPHA_VANTAGE_API_KEY='ADD-YOUR-KEY-HERE' 
+export DATA_SOURCE='ALPHA_VANTAGE'
